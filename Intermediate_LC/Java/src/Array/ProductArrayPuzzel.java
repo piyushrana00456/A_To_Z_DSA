@@ -23,6 +23,41 @@
 
 package Java.src.Array;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class ProductArrayPuzzel {
     
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of Array A:");
+        int n = sc.nextInt();
+        
+        System.out.println("Enter elements of Array A:");
+          
+       int[] A = new int[n];
+       
+       for(int i=0; i<n; i++){
+        A[i] = sc.nextInt();
+       }
+
+       int[] pf = new int[n];
+
+       pf[0] = 1;
+
+       for(int i=1; i<n; i++){
+        pf[i] = pf[i - 1] * A[ i - 1];
+       }
+
+       int[] res = new int[n];
+       
+       int suffix = 1;
+
+       for(int i=n-1; i>=0; i--){
+        res[i] = pf[i] * suffix;
+        suffix *= A[i];
+       }
+
+       System.out.println(Arrays.toString(res));
+    }
 }

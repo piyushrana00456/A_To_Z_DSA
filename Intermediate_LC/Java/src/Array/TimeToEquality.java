@@ -15,6 +15,37 @@
 
 package Java.src.Array;
 
+import java.util.Scanner;
+
 public class TimeToEquality {
-    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the size of an Array A:");
+
+        int n = sc.nextInt();
+
+        System.out.println("Enter the elements of Array A:");
+
+        int[] A = new int[n];
+
+        for(int i = 0; i<n; i++){
+            A[i]= sc.nextInt();
+        }
+
+        int max = Integer.MIN_VALUE;
+
+        for(int i=0; i<n; i++){
+            max= Math.max(max, A[i]);
+        }
+
+
+        int sec = 0;
+
+        for(int i=0; i<n; i++){
+            sec = sec + (max - A[i]);
+        }
+
+        System.out.println(sec);
+    }
 }
