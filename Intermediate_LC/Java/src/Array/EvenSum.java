@@ -1,6 +1,4 @@
-package Java.src.Array;
-
-import java.lang.reflect.Array;
+package Array;
 import java.util.*;
 
 public class EvenSum {

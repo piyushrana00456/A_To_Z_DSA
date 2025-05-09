@@ -2,7 +2,7 @@
 // Task is to find the equilibrium index of the given array
 //The equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
 
-package Java.src.Array;
+package Array;
 
 import java.util.Scanner;
 

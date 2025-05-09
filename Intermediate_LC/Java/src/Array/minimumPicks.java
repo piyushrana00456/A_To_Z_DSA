@@ -1,6 +1,6 @@
 //Given An array return the diff b/w Max among all the even numbers of A and Min of all the odds of A.
 
-package Java.src.Array;
+package Array;
 
 import java.util.*;
 

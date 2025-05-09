@@ -1,5 +1,5 @@
 //Given an array A, Have to find second largest element in array;
-package Java.src.Array;
+package Array;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
 //Given an Array A of N non-negative numbers and a non-negative number B, need to find the count of subarrays in A with summ of less than B.
 
-package Java.src.Array;
+package Array;
 
 import java.util.Scanner;
 

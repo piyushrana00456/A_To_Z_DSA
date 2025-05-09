@@ -1,6 +1,6 @@
 //Given an Array A check whether we can create one or more subarray of even length and each subarray's first or last ele should be even if it possible return YES else NO
 
-package Java.src.Array;
+package Array;
 
 import java.util.Scanner;
 

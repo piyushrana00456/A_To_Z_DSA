@@ -1,0 +1,1 @@
+//Given an Array A of length N comprising pf 0's and 1's and an int B, have to return all the indices of array A that can act as center of 2*B  + 1 length

@@ -13,7 +13,7 @@
 // Output 8 
 // Example Explanation We can change the array A=[4,4,4,4,4].The time required will be 8 seconds.
 
-package Java.src.Array;
+package Array;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 //Given an array, A, of N integers, In a particular operation we can set any element of the array equal to -1.
 // wants to find max number of operations required such that max element of the resulting array is B.
 
-package Java.src.Array;
+package Array;
 import java.util.*;
 
 public class littlePonnyAndMaxEle {

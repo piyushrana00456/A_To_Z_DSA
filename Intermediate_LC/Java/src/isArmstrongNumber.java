@@ -1,8 +1,6 @@
 //Given an Integer N, need to print all the Armstrong Numbers b/w 1 to N;
 //if sum of each digit of number is equal to the number itself is Armstrong number
 
-package Java.src;
-
 import java.util.Scanner;
 
 public class isArmstrongNumber {

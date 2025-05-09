@@ -21,7 +21,7 @@
 // Output 1:[1,0]
 // Output 2:[1,0]
 
-package Java.src.Array;
+package Array;
 
 import java.util.Arrays;
 import java.util.Scanner;
